@@ -1,0 +1,28 @@
+body {
+    background: #000000 url('main-imgs/car-back.jpg') no-repeat;
+    background-position: center;
+    width: 100%;
+}
+
+@media screen and (max-width: 500px) {
+    body {
+        background-image: url('assets/car-back.jpg');
+    }
+}
+
+@media screen and (orientation: landscape){
+    body {
+        background-image: url('assets/car-back.jpg');
+        background-position: top;
+    }
+}
+
+.resultados p:first-of-type {
+    font-weight: 700;
+    color: #ff0000;
+}
+
+.control {
+    background: hsla(175, 70%, 30%, 0.1);
+    border-radius: 20px;
+}

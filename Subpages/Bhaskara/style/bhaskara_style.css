@@ -1,0 +1,48 @@
+body {
+    background-color: #96732d;
+    font: 1.25em Script;
+}
+
+input { 
+    font-family: Script;
+    font-size: 0.8em;
+}
+
+@media screen and (max-witdh: 665px) {
+    .main {
+        background-size: 100%;
+    }
+}
+
+.header-img {
+   display: flex;
+   justify-content: center;
+}
+
+.header-img img {
+    width: 120px;
+    height: 120px;
+}
+
+.header-title span {
+    color: #4747e7;
+}
+
+.pencil-icon {
+    position: relative;
+    top: 33px;
+    left: 18px;
+}
+
+.resultados {
+    background-color: rgba(200, 200, 200, 0.5);
+    border-radius: 15px;
+    max-width: 500px;
+}
+
+.resultados p:first-of-type {
+    background: none;
+    color: rgba(255, 150, 20, 1);
+    font-size: 0.9em;
+    font-family: 'Times New Roman', Times, serif;
+}

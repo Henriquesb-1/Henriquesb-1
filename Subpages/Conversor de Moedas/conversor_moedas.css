@@ -1,0 +1,49 @@
+body {
+    margin: 0;
+    padding: 0;
+    background-color: rgb(30, 48, 42);
+    background: url('assets/photo-1595654378985-92061e59a24d.jpg') no-repeat right #000;
+}
+
+.control {
+    background-color: hsla(195, 75%, 50%, 0.1);
+    border-radius: 25px;
+    box-shadow: 2px 2px 2px 2px hsla(5, 65%, 20%, 0.5)
+}
+
+.form {
+    width: 400px;
+    margin: 0 auto;
+}
+
+
+.convert-display {
+    display: flex;
+    justify-content: center;
+}
+
+.value {
+    display:flex;
+    margin: 10px 20px;
+}
+
+.value select {
+    height: 25px;
+    position: relative;
+    top: 18px;
+}
+
+.value h3 {
+    margin-right: 10px;
+}
+
+.valor1 {
+    position: relative;
+    display: grid;
+    place-items: center;
+}
+
+.resultados p:first-of-type {
+    color: #ff0000;
+    font-size: 16px;
+}

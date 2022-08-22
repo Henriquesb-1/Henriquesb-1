@@ -1,0 +1,29 @@
+body { 
+    background: #242424;
+    text-align: center;
+}
+
+h3 {
+    color: #ff0000;
+}
+
+.control {
+    border-radius: 20px;
+    background: hsla(25, 90%, 20%, 0.6);
+}
+
+.erro {
+    color: #ff0000;
+}
+
+#select-temp {
+    width: 130px;
+    font-size: 13.25px;
+    text-align: center;
+}
+
+@media screen and (orientation: landscape) and (max-width: 1000px) {
+    .main {
+        align-items: baseline;
+    }
+}

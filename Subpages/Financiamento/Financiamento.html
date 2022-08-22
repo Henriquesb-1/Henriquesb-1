@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <meta http-equiv="X-UA-Compatible" content="IE=Edge">
+        <meta name="description" content="Simulação de Financiamento. Quer descobrir quanto você tem que desembolsar por um mês para poder ter aquele carrão? Então vamos nessa">
+        <meta name="author" content="Henrique">
+        <meta name="robots" content="index, follow">
+        <link rel="stylesheet" type="text/css" href="financiamento.css" />
+        <link rel="stylesheet" type="text/css" href="subpages.css" />
+        <link rel="shortcut icon" type="imagex/png" href="assets/car-icon.ico" >
+        <title> Simulador de Financiamento </title>
+    </head>
+
+    <body>
+        <main>
+            <div class="main">
+                <div class="control">
+                    <div class="main-container tamanho">
+                        <div class="header-title">
+                            <h1>
+                                <span>
+                                    Financiamento
+                                </span>
+                            </h1>
+                        </div>
+
+                        <div class="header-description tamanho">
+                            <p>
+                                Quer saber quanto você iria pagar de prestação naquele carro que você está pensando em comprar? <br>
+                                Utilize a calculadora abaixo e descubra quanto custará sua futura aquisição.
+                            </p>
+                        </div>
+                    </div>
+
+                    <div class="form tamanho">
+                        <div class="valor sb1">
+                            <label for="valor_veiculo"> Qual o valor do veiculo? </label>
+                            <input type="number" id="valor-veiculo" class="valor-veiculo" required />
+                        </div>
+
+                        <div class="entrada sb1">
+                            <label for="valor_entrada"> Quanto pretende dar de entrada? </label>
+                            <input type="number" id="valor-entrada" class="valor-entrada" required />
+                        </div>
+
+                        <div class="meses sb1">
+                            <label for="meses"> Em quantos meses pretende financiar?  </label>
+                            <input type="number" name="vezes" class="vezes" placeholder="Ex: 12, 24, 36, 48">
+                        </div>
+                    </div>
+
+                    <div class="botaoenviar tamanho">
+                        <input class="calcButton" type="button" value="Financiar"/>
+                    </div>
+
+                    <div class="resultados tamanho">
+                        <p class="erro"> </p>
+                        <p class="iu"> </p>
+                        <p class="valor_financiado"> </p>
+                        <p class="valor_parcelas"> </p>
+                        <p class="total_sem_entrada"> </p>
+                        <p class="total_com_entrada"> </p>
+                        <p class="totalJuros"> </p>
+                        <p class="aviso_final"> </p>
+                    </div>
+                </div>
+            </div>        
+        </main>
+
+        <aside>
+            <div class="back-button-group">
+                <img class="return-icon" src="assets/return.png" alt="Ícone de retornar">
+                    <a href="index.lnk" class="return">
+                        <input type="button" value="Home Page" />
+                    </a>
+            </div>
+        </aside>
+
+        <script type="text/javascript" src="script/financiamento.js"> </script>
+
+    </body>
+</html>

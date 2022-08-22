@@ -1,0 +1,40 @@
+@font-face {
+    font-family: Script;
+    src: url(font/scriptwrite.ttf);
+}
+
+body {
+    background-color: #96732d;
+    font: 1.29em Script;
+}
+
+input { 
+    font-family: Script;
+    font-size: 0.8em;
+}
+
+.main {
+    background-image: url(assets/bakground-image.jpg);
+    background-repeat: no-repeat;
+    background-position-x: center;                
+}
+
+.control {
+    width: 500px;
+}
+
+.catetoC {
+    margin-left: 80px;
+}
+
+.resultados p:first-of-type {
+    font-family: 'Times New Roman', Times, serif;
+    color: #ff0000;
+    font-size: 0.9em;
+}
+
+.pencil-icon {
+    position: relative;
+    top: 33px;
+    left: 18px;
+}

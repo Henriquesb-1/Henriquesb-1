@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <meta http-equiv="X-UA-Compatible" content="IE=Edge">
+        <meta name="description" content="Aqui você pode encontrar algumas calculadoras que podem ser muito úteis para você. De A a Z. De fórmula de Bhaskara até IMC e calculo de Financiamento. O que você precisar calcular está aqui.">
+        <meta name="author" content="Henrique">
+        <meta name="robots" content="index, follow">
+        <link rel="stylesheet" type="text/css" href="pitagora.css" />
+        <link rel="stylesheet" type="text/css" href="subpages.css" />
+        <link rel="shortcut icon" type="imagex/png" href="assets/hipotenusa-icon.ico" />
+        <title> Teorama de Pitágoras </title>
+    </head>
+
+    <body>
+        <main>
+            <div class="main">
+                <div class="control">
+                    <div class="main-container tamanho">
+                        <div class="header-tipa">
+                            <div class="header-title"> 
+                                <h1>
+                                    <span>
+                                        Teorama de Pitágoras
+                                    </span>
+                                </h1>
+                            </div>
+    
+                            <div class="header-description tamanho">
+                                <p>
+                                    Calcular a hipotenusa ou cateto? <br>
+                                    Sem problemas. <br>
+                                    Digite o valor dos catetos caso queira achar a Hipotenusa. <br>
+                                    Ou digite o valor da Hipotenusa e de um dos Catetos caso queira achar o outro Cateto. 
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                       
+                    <div class="form-especi tamanho">
+                       <div class="input sb1">
+                           <label for="hipote"> Hipotenusa ( A ) ou Cateto ( B ): </label>
+                           <input type="number" id="hipo_cate" class="hipo_cate" />
+                       </div>
+
+                       <div class="input sb1 catetoC">
+                           <label for="cate"> Cateto ( C ): </label>
+                           <input type="number" id="catetob" class="catetob" />
+                       </div>
+                    </div>
+
+                    <div class="botaoenviar tamanho">
+                        <img class="pencil-icon" src="assets/pencil.png" alt="Ilustrção de um pincel" width="35px" height="18px">
+                        <input type="button" class="botaoResultado"  value="Calcular"/> 
+                    </div>
+
+                    <div class="resultados tamanho">
+                        <p class="erro"> </p>
+                        <p class="user"> </p>
+                        <p class="formula"> </p>
+                        <p class="res"> </p>
+                    </div>
+                </div>
+            </div>
+        </main>
+
+        <aside>
+            <div class="back-button-group">
+                <img class="return-icon" src="assets/return.png" alt="Ícone de retornar">
+                    <a href="index.lnk" class="return">
+                        <input type="button" value="Home Page" />
+                    </a>
+            </div>
+        </aside>
+
+        <script type="text/javascript" src="script/pitagoras.js"> </script>
+    </body>
+</html>
